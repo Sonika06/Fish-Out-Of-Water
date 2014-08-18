@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- your strings here; no need now for the translatable attribute -->
+    <string name="app_id">721934055764</string>
+    <string name="correct_guess_achievement">CgkI1PL9tIEVEAIQAw</string>
+    <string name="number_guesses_leaderboard">CgkI1PL9tIEVEAIQAg</string>
+    <string name="achievement_2">CgkI1PL9tIEVEAIQAw</string>
+    <string name="achievement_4">CgkI1PL9tIEVEAIQBA</string>
+    <string name="achievement_7">CgkI1PL9tIEVEAIQBQ</string>
+    <string name="achievement_10">CgkI1PL9tIEVEAIQBg</string>
+    <string name="achievement_12">CgkI1PL9tIEVEAIQBw</string>
+    <string name="achievement_15">CgkI1PL9tIEVEAIQCA</string>
+    <string name="leaderboard_scoreboard">CgkI1PL9tIEVEAIQAg</string>
+
+</resources>

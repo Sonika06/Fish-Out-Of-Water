@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fish Out Of Water</string>
+    <string name="gameTitle">Fish Out Of Water</string>
+    <string name="app_id">721934055764</string>
+    <string name="correct_guess_achievement">CgkI1PL9tIEVEAIQAw</string>
+    <string name="number_guesses_leaderboard">CgkI1PL9tIEVEAIQAg</string>
+    <string name="onePlayerBtn">Play</string>
+    <string name="okText">OK</string>
+    <string name="cancelText">Cancel</string>
+    <string name="startLevel">Start Level</string>
+    <string name="congrats">Congratulations! \nYou have completed the game!</string>
+    <string name="finalScoreBodyText"></string>
+    <string name="scoreText">0</string>
+
+    <color name="red">#ff0000</color>
+
+    <string name="high_score">High Scores</string>
+    <string name="finalscore">High Scores</string>
+    <string name="step_counter">         android.hardware.sensor.stepcounter</string>
+    <string name="step_detector">         android.hardware.sensor.stepdetector</string>
+
+</resources>

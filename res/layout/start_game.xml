@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fow"
+    android:orientation="vertical"
+    tools:context=".StartGameActivity" >
+
+    <LinearLayout
+        android:id="@+id/sign_in_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <!-- sign-in button -->
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- sign-out button -->
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center_horizontal"
+        android:text="@string/gameTitle"
+        android:textColor="#000000"
+        android:textSize="40dip" />
+
+    <Button
+        android:id="@+id/onePlayer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/highBtn"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button"
+        android:onClick="goToOnePlayerGame"
+        android:text="Start Game"
+        android:textSize="25dip" />
+
+    <Button
+        android:id="@+id/highBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button"
+        android:onClick="goToHigh"
+        android:text="High Scores"
+        android:textSize="25dip" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/onePlayer"
+        android:layout_below="@+id/onePlayer"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button"
+        android:onClick="goToHelp"
+        android:text="Help"
+        android:textSize="25dip" />
+
+
+    
+        <LinearLayout
+        android:id="@+id/play_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameTitle"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- show achievements -->
+
+        <RadioButton
+            android:id="@+id/show_achievements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Achievements" />
+
+        <!-- show leaderboards -->
+
+        <RadioButton
+            android:id="@+id/show_leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Leaderboard" />
+    </LinearLayout>
+    
+</RelativeLayout>
